@@ -1,0 +1,1259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <meta name="generator" content="Astro v3.6.5" />
+    <meta
+      name="description"
+      content="Your local Cooling & Heating Specialists."
+    />
+    <title>Nice Air - Cooling &amp; Heating</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="_astro/duct-cleaning.76cfe53e.css" />
+    <style>
+      .header-transparent[data-astro-cid-qwwjjspz] {
+        background-color: #fff0;
+        -webkit-backdrop-filter: blur(0px);
+        backdrop-filter: blur(0px);
+        transition: padding 0.3s ease, background-color 0.3s ease,
+          -webkit-backdrop-filter 0.3s ease;
+        transition: padding 0.3s ease, background-color 0.3s ease,
+          backdrop-filter 0.3s ease;
+        transition: padding 0.3s ease, background-color 0.3s ease,
+          backdrop-filter 0.3s ease, -webkit-backdrop-filter 0.3s ease;
+      }
+      .dark[data-astro-cid-qwwjjspz].header-transparent {
+        background-color: #00000080;
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+      }
+      .header-translucent[data-astro-cid-qwwjjspz] {
+        padding-top: 4px;
+        padding-bottom: 4px;
+        background-color: #ffffff10;
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+        transition: padding 0.3s ease, background-color 0.3s ease,
+          -webkit-backdrop-filter 0.3s ease;
+        transition: padding 0.3s ease, background-color 0.3s ease,
+          backdrop-filter 0.3s ease;
+        transition: padding 0.3s ease, background-color 0.3s ease,
+          backdrop-filter 0.3s ease, -webkit-backdrop-filter 0.3s ease;
+      }
+      .logo-image[data-astro-cid-qwwjjspz] {
+        background-image: url(_astro/Logo_nice_black.f922fe44.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .dark[data-astro-cid-qwwjjspz] .logo-image[data-astro-cid-qwwjjspz] {
+        background-image: url(_astro/Logo_nice_white.c52072f1.png);
+      }
+      .nav-item[data-astro-cid-qwwjjspz] a[data-astro-cid-qwwjjspz] {
+        transition: color 0.3s ease;
+        color: #000;
+        text-decoration: none;
+      }
+      .nav-item[data-astro-cid-qwwjjspz] a[data-astro-cid-qwwjjspz]:hover,
+      .nav-item[data-astro-cid-qwwjjspz] a[data-astro-cid-qwwjjspz].active {
+        color: orange;
+      }
+      :root {
+        --color-bg: 255 255 255;
+        --color-border: 255 255 255;
+        --color-box: 255 255 255;
+        --box-border: 229 231 235;
+        --box-sd: 226 232 240 / 0.5;
+        --color-flechas: 0, 0, 0;
+        --heading-1: 63 63 63;
+        --heading-2: 63 63 63;
+        --heading-3: 63 63 63;
+      }
+      .dark {
+        --color-bg: 3 7 18;
+        --color-box: 17 24 39;
+        --box-border: 243 244 246/0.1;
+        --box-sd: transparent;
+        --color-flechas: 255, 255, 255;
+        --heading-1: 255 255 255;
+        --heading-2: 243 244 246;
+        --heading-3: 209 213 219;
+      }
+      .bg-gradient-custom {
+        background-image: linear-gradient(
+          to bottom right,
+          #667eea 20%,
+          #4c51bf 30%,
+          #68d391 60%
+        );
+      }
+      .bg-gradient-custom-title {
+        background-image: linear-gradient(
+          to bottom right,
+          #667eea 20%,
+          #4c51bf 30%,
+          #667eea 60%
+        );
+      }
+      .bg-custom-check {
+        color: #667eea;
+      }
+      .dark .bg-gradient-custom {
+        background-image: linear-gradient(
+          to bottom right,
+          #e53e3e 20%,
+          #f56565 30%,
+          #f6e05e 60%
+        );
+      }
+      .dark .bg-gradient-custom-title {
+        background-image: linear-gradient(
+          to bottom right,
+          #e53e3e 20%,
+          #f56565 30%,
+          #e53e3e 60%
+        );
+      }
+      .dark .bg-custom-check {
+        color: #e53e3e;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: "Maven+Pro", sans-serif;
+      }
+      [data-toggle-nav][data-open-nav="true"] #line1 {
+        transform: translateY(0.375rem) rotate(40deg);
+      }
+      [data-toggle-nav][data-open-nav="true"] #line2 {
+        transform: scaleX(0);
+        opacity: 0;
+      }
+      [data-toggle-nav][data-open-nav="true"] #line3 {
+        transform: translateY(-0.375rem) rotate(-40deg);
+      }
+      [data-nav-overlay][data-is-visible="true"] {
+        visibility: visible;
+        display: flex;
+      }
+      .logo-image[data-astro-cid-i3lohfvg] {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .dark[data-astro-cid-i3lohfvg] .logo-image[data-astro-cid-i3lohfvg] {
+        background-image: url(_astro/Logo_nice_white.c52072f1.png);
+      }
+      .logo-image[data-astro-cid-i3lohfvg] {
+        background-image: url(_astro/Logo_nice_black.f922fe44.png);
+      }
+    </style>
+    <script type="module" src="_astro/hoisted.0c5d58ac.js"></script>
+  </head>
+  <body class="overflow-hidden overflow-y-auto bg-body">
+    <header
+      class="fixed inset-x-0 top-0 z-50 py-6 header-transparent dark:bg-black dark:bg-opacity-50 dark:header-transparent"
+      data-astro-cid-qwwjjspz
+    >
+      <div class="mx-auto max-w-7xl w-full px-6 undefined">
+        <nav
+          class="w-full flex justify-between gap-6 relative"
+          data-astro-cid-qwwjjspz
+        >
+          <!-- logo -->
+          <div class="min-w-max inline-flex relative" data-astro-cid-qwwjjspz>
+            <a
+              href="/"
+              class="relative flex items-center gap-3"
+              data-astro-cid-qwwjjspz
+            >
+              <div
+                class="logo-image"
+                style="width: 259px; height: 101px"
+                data-astro-cid-qwwjjspz
+              ></div>
+            </a>
+          </div>
+          <div
+            data-nav-overlay
+            aria-hidden="true"
+            class="fixed hidden inset-0 lg:!hidden bg-box-bg bg-opacity-50 backdrop-filter backdrop-blur-xl"
+            data-astro-cid-qwwjjspz
+          ></div>
+          <div
+            data-navbar
+            class="flex h-0 overflow-hidden lg:!h-auto lg:scale-y-100 duration-300 ease-linear flex-col gap-y-6 gap-x-4 lg:flex-row w-full lg:justify-between lg:items-center absolute lg:relative top-full lg:top-0 bg-body lg:bg-transparent border-x border-x-box-border lg:border-x-0"
+            data-astro-cid-qwwjjspz
+          >
+            <ul
+              class="border-t border-box-border lg:border-t-0 px-6 lg:px-0 pt-6 lg:pt-0 flex flex-col lg:flex-row gap-y-4 gap-x-3 text-lg text-heading-2 w-full lg:justify-center lg:items-center"
+              data-astro-cid-qwwjjspz
+            >
+              <li>
+                <a
+                  href="#"
+                  class="duration-300 font-medium ease-linear py-3 hover:text-primary dark:hover:text-red-600"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#services"
+                  class="duration-300 font-medium ease-linear py-3 hover:text-primary dark:hover:text-red-600"
+                >
+                  Services
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#about-us"
+                  class="duration-300 font-medium ease-linear py-3 hover:text-primary dark:hover:text-red-600"
+                >
+                  About us
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#team"
+                  class="duration-300 font-medium ease-linear py-3 hover:text-primary dark:hover:text-red-600"
+                >
+                  Team
+                </a>
+              </li>
+            </ul>
+            <div
+              class="lg:min-w-max flex items-center sm:w-max w-full pb-6 lg:pb-0 border-b border-box-bg lg:border-0 px-6 lg:px-0"
+              data-astro-cid-qwwjjspz
+            >
+              <a
+                href="tel:941-739-5000"
+                class="px-6 py-3 rounded-full outline-none relative overflow-hidden border duration-300 ease-linear after:absolute after:inset-x-0 after:aspect-square after:scale-0 after:opacity-70 after:origin-center after:duration-300 after:ease-linear after:rounded-full after:top-0 after:left-0 bg-[#667eea] dark:bg-red-500 border-transparent after:bg-[#172554] dark:after:bg-red-700 hover:border-[#172554] dark:hover:border-red-700 hover:after:opacity-100 hover:after:scale-[2.5] min-w-max text-white bg-primary hover:bg-blue-700 dark:bg-red-600 dark:hover:bg-red-700 dark:text-white dark:border-red-700 border border-transparent hover:border-blue-700 dark:hover:border-red-700"
+              >
+                <span class="relative text-white z-10">
+                  24 Hour Emergency Service
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            class="min-w-max flex items-center gap-x-3"
+            data-astro-cid-qwwjjspz
+          >
+            <button
+              data-switch-theme
+              class="outline-none flex relative text-heading-2 rounded-full p-2 lg:p-3 border border-box-border"
+              data-astro-cid-qwwjjspz
+            >
+              <!-- Iconos para modo claro y oscuro -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6 dark:flex hidden"
+                data-astro-cid-qwwjjspz
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z"
+                  data-astro-cid-qwwjjspz
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6 dark:hidden"
+                data-astro-cid-qwwjjspz
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a 3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
+                  data-astro-cid-qwwjjspz
+                ></path>
+              </svg>
+              <span class="sr-only" data-astro-cid-qwwjjspz>switch theme</span>
+            </button>
+            <!-- Botón de menú hamburguesa para móviles -->
+            <button
+              data-toggle-nav
+              data-open-nav="false"
+              class="lg:hidden lg:invisible outline-none w-7 h-auto flex flex-col relative"
+              data-astro-cid-qwwjjspz
+            >
+              <span
+                id="line1"
+                class="w-6 h-0.5 rounded-full bg-heading-2 transition-all duration-300 ease-linear"
+                data-astro-cid-qwwjjspz
+              ></span>
+              <span
+                id="line2"
+                class="w-6 origin-center mt-1 h-0.5 rounded-ful bg-heading-2 transition-all duration-300 ease-linear"
+                data-astro-cid-qwwjjspz
+              ></span>
+              <span
+                id="line3"
+                class="w-6 mt-1 h-0.5 rounded-ful bg-heading-2 transition-all duration-300 ease-linear"
+                data-astro-cid-qwwjjspz
+              ></span>
+              <span class="sr-only" data-astro-cid-qwwjjspz>toggle nav</span>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="flex flex-col gap-y-20 md:gap-y-32 overflow-hidden">
+      <section class="relative pt-32 lg:pt-36">
+        <div
+          class="mx-auto max-w-7xl w-full px-6 flex flex-col lg:flex-row gap-10 lg:gap-12"
+        >
+          <div class="absolute w-full lg:w-1/2 inset-y-0 lg:right-0">
+            <span
+              class="absolute -left-6 md:left-4 top-24 lg:top-28 w-24 h-24 rotate-90 skew-x-12 rounded-3xl bg-gradient-custom blur-xl opacity-60 lg:opacity-95 lg:block hidden"
+            ></span>
+            <span
+              class="absolute right-4 bottom-12 w-24 h-24 rounded-3xlbg-gradient-custom blur-xl opacity-80"
+            ></span>
+          </div>
+          <span
+            class="w-4/12 lg:w-2/12 aspect-square bg-gradient-custom absolute -top-5 lg:left-0 rounded-full skew-y-12 blur-2xl opacity-40 skew-x-12 rotate-90"
+          ></span>
+          <div
+            class="relative flex flex-col items-center text-center lg:text-left lg:py-7 xl:py-8 lg:items-start lg:max-w-none max-w-3xl mx-auto lg:mx-0 lg:flex-1 lg:w-1/2"
+          >
+            <h1
+              class="text-3xl/tight sm:text-4xl/tight md:text-5xl/tight xl:text-6xl/tight font-bold text-heading-1"
+            >
+              Your local
+              <span
+                class="text-transparent bg-clip-text bg-gradient-to-br from-indigo-600 from-20% via-primary via-30% to-green-600"
+                >Cooling</span
+              >
+              &
+              <span
+                class="text-transparent bg-clip-text bg-gradient-to-br from-red-600 from-20% via-red-500 via-30% to-yellow-600"
+                >Heating</span
+              >
+              Specialists.
+            </h1>
+            <p class="md:text-lg text-heading-3 mt-8">
+              At
+              <span
+                class="text-transparent font-bold bg-clip-text bg-gradient-custom"
+                >NICE AIR</span
+              >, we bring comfort and quality to your space with our efficient
+              HVAC solutions in South Bradenton, FL and surrounding areas.
+              Focused on your health and savings, we promise lasting comfort and
+              swift service. Experience the difference with us.
+            </p>
+            <div class="mx-auto max-w-md sm:max-w-xl pt-10">
+              <a href="tel:941-739-5000" class="inline-block">
+                <button
+                  class="px-6 py-3 rounded-full outline-none relative overflow-hidden border duration-300 ease-linear after:absolute after:inset-x-0 after:aspect-square after:scale-0 after:opacity-70 after:origin-center after:duration-300 after:ease-linear after:rounded-full after:top-0 after:left-0 bg-[#667eea] dark:bg-red-500 border-transparent after:bg-[#172554] dark:after:bg-red-700 hover:border-[#172554] dark:hover:border-red-700 hover:after:opacity-100 hover:after:scale-[2.5] undefined"
+                >
+                  <span class="text-white relative z-[5]">
+                    <svg
+                      class="w-6 h-6 text-white mr-2 inline-block"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.367 1.06l-2.31 1.954a11.042 11.042 0 005.5 5.5l1.954-2.31a1 1 0 011.06-.367l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C6.477 21 3 17.523 3 13V5z"
+                      ></path>
+                    </svg>
+                    Call Now 941-739-5000
+                  </span>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div
+            class="flex flex-1 lg:w-1/2 lg:h-auto relative lg:max-w-none lg:mx-0 mx-auto max-w-3xl"
+          >
+            <img
+              src="images/exemple.png"
+              alt="Hero image"
+              width="2350"
+              height="2359"
+              class="lg:absolute lg:w-full lg:h-full rounded-3xl object-cover lg:max-h-none max-h-96"
+            />
+          </div>
+        </div>
+        <!-- Contenedor para tus estadísticas -->
+        <section class="relative mt-12 md:mt-16 items-center">
+          <div class="mx-auto max-w-7xl w-full px-6 undefined">
+            <div
+              class="mx-auto lg:mx-0 p-5 sm:p-6 py-6 sm:py-8 max-w-5xl rounded-3xl bg-box-bg border border-box-border shadow-lg shadow-box-shadow md:divide-x divide-box-border grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8 md:gap-6 lg:gap-12"
+            >
+              <!-- Servicios -->
+              <div class="text-center" data-counter="1400" data-prefix="+">
+                <h2
+                  class="counter-value font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1"
+                >
+                  +0
+                </h2>
+                <p class="mt-2 text-heading-3">Services</p>
+              </div>
+              <!-- Clientes -->
+              <div class="text-center" data-counter="300" data-prefix="+">
+                <h2
+                  class="counter-value font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1"
+                >
+                  +0
+                </h2>
+                <p class="mt-2 text-heading-3">Clients</p>
+              </div>
+              <!-- Reviews -->
+              <div class="text-center" data-counter="237" data-prefix="+">
+                <h2
+                  class="counter-value font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1"
+                >
+                  +0
+                </h2>
+                <p class="mt-2 text-heading-3">Reviews in Google</p>
+              </div>
+              <!-- Año de establecimiento, con efecto descendente -->
+              <div class="text-center" data-counter="2009" data-descend="true">
+                <h2
+                  class="counter-value font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1"
+                >
+                  2009
+                </h2>
+                <p class="mt-2 text-heading-3">Company Established</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section>
+        <div class="mx-auto max-w-7xl w-full px-6 space-y-8">
+          <div class="text-center max-w-3xl mx-auto">
+            <h1
+              class="text-heading-1 font-semibold text-2xl sm:text-3xl md:text-4xl"
+            >
+              <span
+                class="text-transparent font-bold bg-clip-text bg-gradient-custom-title"
+              >
+                Trusted by companies like
+              </span>
+            </h1>
+          </div>
+          <div class="flex justify-center flex-wrap gap-4">
+            <div
+              class="p-4 sm:p-5 rounded-xl bg-body border border-box-border group"
+            >
+              <img
+                src="logos/Google.png"
+                width="100"
+                height="60"
+                alt="google"
+                class="h-7 sm:h-10 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105"
+              />
+            </div>
+            <div
+              class="p-4 sm:p-5 rounded-xl bg-body border border-box-border group"
+            >
+              <img
+                src="logos/Bryant.png"
+                width="100"
+                height="60"
+                alt="Bryant"
+                class="h-7 sm:h-10 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105"
+              />
+            </div>
+            <div
+              class="p-4 sm:p-5 rounded-xl bg-body border border-box-border group"
+            >
+              <img
+                src="logos/Bosch.png"
+                width="100"
+                height="60"
+                alt="Bosch"
+                class="h-7 sm:h-10 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105"
+              />
+            </div>
+            <div
+              class="p-4 sm:p-5 rounded-xl bg-body border border-box-border group"
+            >
+              <img
+                src="logos/Carrier.png"
+                width="100"
+                height="60"
+                alt="carrier"
+                class="h-7 sm:h-10 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="services" class="bg-gray-50 dark:bg-black">
+        <div class="mx-auto max-w-7xl w-full px-6 space-y-10 md:space-y-12">
+          <div
+            class="text-center max-w-3xl mx-auto space-y-4 shadow-box-shadow"
+          >
+            <h1
+              class="text-heading-1 font-semibold text-2xl sm:text-3xl md:text-4xl"
+            >
+              <span
+                class="text-transparent font-bold bg-clip-text bg-gradient-custom-title"
+              >
+                Services
+              </span>
+            </h1>
+            <p class="md:text-lg text-heading-3 undefined">
+              Delivering Top-tier Comfort: Our Efficient HVAC Solutions Are
+              Backed by Leading Manufacturers for Unmatched Quality and Service
+            </p>
+          </div>
+          <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+            <div
+              class="max-w-md mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 overflow-hidden"
+            >
+              <a href="service-call">
+                <img
+                  src="images/service_call.png"
+                  alt="Service Call"
+                  class="w-full h-auto"
+                />
+                <!-- Ajuste para imagen responsive y centrada -->
+              </a>
+              <div class="p-5">
+                <a href="/service-call">
+                  <h2
+                    class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                  >
+                    Service Call
+                  </h2>
+                </a>
+                <p class="md:text-lg text-heading-3 undefined">
+                  Contact with our professional service technician to solve your
+                  A/C Problem and very Accurate diagnostic.
+                </p>
+                <div class="pt-4 text-center">
+                  <a href="/service-call" class="inline-block">
+                    <button
+                      class="px-6 py-3 rounded-full outline-none relative overflow-hidden border duration-300 ease-linear after:absolute after:inset-x-0 after:aspect-square after:scale-0 after:opacity-70 after:origin-center after:duration-300 after:ease-linear after:rounded-full after:top-0 after:left-0 bg-[#667eea] dark:bg-red-500 border-transparent after:bg-[#172554] dark:after:bg-red-700 hover:border-[#172554] dark:hover:border-red-700 hover:after:opacity-100 hover:after:scale-[2.5] undefined"
+                    >
+                      <span class="text-white relative z-[5]">
+                        More Information
+                      </span>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="max-w-md mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 overflow-hidden"
+            >
+              <a href="/install">
+                <img
+                  src="images/install.png"
+                  alt="Install"
+                  class="w-full h-auto"
+                />
+                <!-- Ajuste para imagen responsive y centrada -->
+              </a>
+              <div class="p-5">
+                <a href="/install">
+                  <h2
+                    class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                  >
+                    Install
+                  </h2>
+                </a>
+                <p class="md:text-lg text-heading-3 undefined">
+                  Ready to improve comfort? Nice Air provides energy efficient
+                  and quality cooling systems...
+                </p>
+                <div class="pt-4 text-center">
+                  <a href="/install" class="inline-block">
+                    <button
+                      class="px-6 py-3 rounded-full outline-none relative overflow-hidden border duration-300 ease-linear after:absolute after:inset-x-0 after:aspect-square after:scale-0 after:opacity-70 after:origin-center after:duration-300 after:ease-linear after:rounded-full after:top-0 after:left-0 bg-[#667eea] dark:bg-red-500 border-transparent after:bg-[#172554] dark:after:bg-red-700 hover:border-[#172554] dark:hover:border-red-700 hover:after:opacity-100 hover:after:scale-[2.5] undefined"
+                    >
+                      <span class="text-white relative z-[5]">
+                        More Information
+                      </span>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="max-w-md mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 overflow-hidden"
+            >
+              <a href="/finance">
+                <img
+                  src="images/financial.png"
+                  alt="Finance"
+                  class="w-full h-auto"
+                />
+                <!-- Ajuste para imagen responsive y centrada -->
+              </a>
+              <div class="p-5">
+                <a href="/finance">
+                  <h2
+                    class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                  >
+                    Finance
+                  </h2>
+                </a>
+                <p class="md:text-lg text-heading-3 undefined">
+                  We offer finance and opportunity to have a NEW A/C
+                </p>
+                <div class="pt-4 text-center">
+                  <a href="/finance" class="inline-block">
+                    <button
+                      class="px-6 py-3 rounded-full outline-none relative overflow-hidden border duration-300 ease-linear after:absolute after:inset-x-0 after:aspect-square after:scale-0 after:opacity-70 after:origin-center after:duration-300 after:ease-linear after:rounded-full after:top-0 after:left-0 bg-[#667eea] dark:bg-red-500 border-transparent after:bg-[#172554] dark:after:bg-red-700 hover:border-[#172554] dark:hover:border-red-700 hover:after:opacity-100 hover:after:scale-[2.5] undefined"
+                    >
+                      <span class="text-white relative z-[5]">
+                        More Information
+                      </span>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="max-w-md mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 overflow-hidden"
+            >
+              <a href="/maintenance">
+                <img
+                  src="images/maintenance.png"
+                  alt="Maintenance"
+                  class="w-full h-auto"
+                />
+                <!-- Ajuste para imagen responsive y centrada -->
+              </a>
+              <div class="p-5">
+                <a href="/maintenance">
+                  <h2
+                    class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                  >
+                    Maintenance
+                  </h2>
+                </a>
+                <p class="md:text-lg text-heading-3 undefined">
+                  We provide the best cleaning performance for your A/C and keep
+                  his unit at the best performance
+                </p>
+                <div class="pt-4 text-center">
+                  <a href="/maintenance" class="inline-block">
+                    <button
+                      class="px-6 py-3 rounded-full outline-none relative overflow-hidden border duration-300 ease-linear after:absolute after:inset-x-0 after:aspect-square after:scale-0 after:opacity-70 after:origin-center after:duration-300 after:ease-linear after:rounded-full after:top-0 after:left-0 bg-[#667eea] dark:bg-red-500 border-transparent after:bg-[#172554] dark:after:bg-red-700 hover:border-[#172554] dark:hover:border-red-700 hover:after:opacity-100 hover:after:scale-[2.5] undefined"
+                    >
+                      <span class="text-white relative z-[5]">
+                        More Information
+                      </span>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="max-w-md mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 overflow-hidden"
+            >
+              <a href="/duct-cleaning">
+                <img
+                  src="images/duct_cleaning.png"
+                  alt="Duct Cleaning"
+                  class="w-full h-auto"
+                />
+                <!-- Ajuste para imagen responsive y centrada -->
+              </a>
+              <div class="p-5">
+                <a href="/duct-cleaning">
+                  <h2
+                    class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                  >
+                    Duct Cleaning
+                  </h2>
+                </a>
+                <p class="md:text-lg text-heading-3 undefined">
+                  Neglected air ducts are often to blame for issues with
+                  comfort, energy waste, safety concerns, and health threats.
+                </p>
+                <div class="pt-4 text-center">
+                  <a href="/duct-cleaning" class="inline-block">
+                    <button
+                      class="px-6 py-3 rounded-full outline-none relative overflow-hidden border duration-300 ease-linear after:absolute after:inset-x-0 after:aspect-square after:scale-0 after:opacity-70 after:origin-center after:duration-300 after:ease-linear after:rounded-full after:top-0 after:left-0 bg-[#667eea] dark:bg-red-500 border-transparent after:bg-[#172554] dark:after:bg-red-700 hover:border-[#172554] dark:hover:border-red-700 hover:after:opacity-100 hover:after:scale-[2.5] undefined"
+                    >
+                      <span class="text-white relative z-[5]">
+                        More Information
+                      </span>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about-us">
+        <div
+          class="mx-auto max-w-7xl w-full px-6 flex flex-col lg:flex-row gap-10 lg:gap-12"
+        >
+          <div class="flex-4 flex flex-col justify-start">
+            <div class="text-center">
+              <h1
+                class="text-heading-1 font-semibold text-2xl sm:text-3xl md:text-4xl"
+              >
+                <span
+                  class="text-transparent font-bold bg-clip-text bg-gradient-custom-title"
+                >
+                  Enhance Your Home Comfort with
+                  <span
+                    class="text-transparent font-bold bg-clip-text bg-gradient-custom"
+                    >NICE AIR</span
+                  >
+                </span>
+              </h1>
+              <p class="md:text-lg text-heading-3 mt-8">
+                Established on March 21, 2005, in Bradenton, Florida by Richard
+                Yates, Nice Air is a family-owned business boasting over 20
+                years of expertise in heating and air conditioning services. We
+                are committed to delivering fast, courteous, and reliable
+                service tailored to homeowners. Our services include:
+              </p>
+            </div>
+            <div class="pt-8 grid grid-cols-2 gap-4 max-w-3xl md:max-w-[none]">
+              <div
+                class="p-5 sm:p-6 lg:p-8 rounded-3xl border border-box-border bg-box-bg shadow-lg shadow-box-shadow relative overflow-hidden"
+              >
+                <div
+                  class="rounded-xl bg-gray-300 dark:bg-gray-950 p-3 text-heading-1 w-max relative"
+                >
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-4 h-4 sm:w-5 sm:h-5"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"
+                      ></path>
+                    </svg>
+                  </span>
+                </div>
+                <h2 class="md:text-xl font-semibold text-heading-2 mt-6 mb-4">
+                  Preventative Maintenance Checks:
+                </h2>
+                <p class="md:text-lg text-heading-3 undefined">
+                  Keep your home systems operating at peak efficiency.
+                </p>
+              </div>
+              <div
+                class="p-5 sm:p-6 lg:p-8 rounded-3xl border border-box-border bg-box-bg shadow-lg shadow-box-shadow relative overflow-hidden"
+              >
+                <div
+                  class="rounded-xl bg-gray-300 dark:bg-gray-950 p-3 text-heading-1 w-max relative"
+                >
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-4 h-4 sm:w-5 sm:h-5"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                      ></path>
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                      ></path>
+                    </svg>
+                  </span>
+                </div>
+                <h2 class="md:text-xl font-semibold text-heading-2 mt-6 mb-4">
+                  Equipment Repair:
+                </h2>
+                <p class="md:text-lg text-heading-3 undefined">
+                  Expert repairs for all brands of central air conditioning and
+                  heating systems.
+                </p>
+              </div>
+              <div
+                class="p-5 sm:p-6 lg:p-8 rounded-3xl border border-box-border bg-box-bg shadow-lg shadow-box-shadow relative overflow-hidden"
+              >
+                <div
+                  class="rounded-xl bg-gray-300 dark:bg-gray-950 p-3 text-heading-1 w-max relative"
+                >
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-4 h-4 sm:w-5 sm:h-5"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"
+                      ></path>
+                    </svg>
+                  </span>
+                </div>
+                <h2 class="md:text-xl font-semibold text-heading-2 mt-6 mb-4">
+                  New Equipment Installation:
+                </h2>
+                <p class="md:text-lg text-heading-3 undefined">
+                  Upgrade to the latest in home comfort technology, elevate your
+                  home with the latest HVAC technology.
+                </p>
+              </div>
+              <div
+                class="p-5 sm:p-6 lg:p-8 rounded-3xl border border-box-border bg-box-bg shadow-lg shadow-box-shadow relative overflow-hidden"
+              >
+                <div
+                  class="rounded-xl bg-gray-300 dark:bg-gray-950 p-3 text-heading-1 w-max relative"
+                >
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-4 h-4 sm:w-5 sm:h-5"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                      ></path>
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                      ></path>
+                    </svg>
+                  </span>
+                </div>
+                <h2 class="md:text-xl font-semibold text-heading-2 mt-6 mb-4">
+                  Duct Cleaning and Indoor Air Quality Solutions:
+                </h2>
+                <p class="md:text-lg text-heading-3 undefined">
+                  Improve the air quality of your home for healthier living.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="max-w-md mx-auto lg:mx-0 lg:max-w-none flex-1">
+            <div class="relative">
+              <div
+                class="absolute rotate-45 -left-5 md:-left-10 lg:-left-20 xl:-left-24 p-1 top-1/2 w-16 h-16 bg-gradient-custom blur-3xl opacity-50"
+              ></div>
+              <div
+                class="absolute p-1 -top-4 md:-top-10 right-0 w-20 h-20 bg-gradient-custom rounded-full blur-3xl opacity-60"
+              ></div>
+              <span
+                class="absolute w-full aspect-[16/5] -skew-x-12 rounded-full bg-gradient-custom opacity-40 blur-2xl left-0 bottom-0"
+              ></span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="team">
+        <div
+          class="mx-auto max-w-7xl w-full px-6 flex flex-col midmd:flex-row gap-10 lg:gap-12"
+        >
+          <div class="flex-1 flex midmd:w-7/12 lg:w-1/2 flex-col">
+            <h1
+              class="text-heading-1 font-semibold text-2xl sm:text-3xl md:text-4xl"
+            >
+              <span
+                class="text-transparent font-bold bg-clip-text bg-gradient-custom-title"
+              >
+                Why Trust
+                <span
+                  class="text-transparent font-bold bg-clip-text bg-gradient-custom"
+                  >NICE AIR</span
+                >? Expertise That Stands Out
+              </span>
+            </h1>
+            <p class="md:text-lg text-heading-3 mt-8">
+              Our team at Nice Air doesn't just work with HVAC systems—we
+              enhance them. Backed by years of experience and countless
+              recommendations from satisfied customers, we pride ourselves on
+              our expertise and reliability.
+            </p>
+            <br />
+            <p class="md:text-lg text-heading-3 mt-2">
+              Choose us for services you can trust:
+            </p>
+            <ul class="mt-8 space-y-4 text-heading-3 font-medium">
+              <li>
+                <span
+                  class="font-bold bg-box-bg rounded-full w-8 h-8 mr-3 bg-custom-check inline-flex justify-center items-center"
+                  >&checkmark;</span
+                >
+                Certified Expertise
+              </li>
+              <li>
+                <span
+                  class="font-bold bg-box-bg rounded-full w-8 h-8 mr-3 bg-custom-check inline-flex justify-center items-center"
+                  >&checkmark;</span
+                >
+                Customer-Centric Approach
+              </li>
+              <li>
+                <span
+                  class="font-bold bg-box-bg rounded-full w-8 h-8 mr-3 bg-custom-check inline-flex justify-center items-center"
+                  >&checkmark;</span
+                >
+                Advanced Diagnostic Tools
+              </li>
+              <li>
+                <span
+                  class="font-bold bg-box-bg rounded-full w-8 h-8 mr-3 bg-custom-check inline-flex justify-center items-center"
+                  >&checkmark;</span
+                >
+                Sustainable Solutions
+              </li>
+            </ul>
+          </div>
+          <div
+            class="max-w-md mx-auto midmd:max-w-none lg:mx-0 lg:pr-10 xl:pr-2 flex-1 flex w-11/12 midmd:w-5/12 lg:w-1/2 midmd:h-auto"
+          >
+            <div class="w-full h-80 sm:h-96 midmd:h-full relative">
+              <div
+                class="absolute rotate-45 -left-5 md:-left-10 lg:-left-20 xl:-left-24 p-1 top-1/2 w-16 h-16 bg-gradient-custom blur-3xl opacity-50"
+              ></div>
+              <div
+                class="absolute p-1 -top-4 md:-top-10 right-0 w-20 h-20 bg-gradient-custom rounded-full blur-3xl opacity-60"
+              ></div>
+              <span
+                class="absolute w-full aspect-[16/5] -skew-x-12 rounded-full bg-gradient-custom opacity-40 blur-2xl left-0 bottom-0"
+              ></span>
+              <img
+                src="images/dev-with-c.webp"
+                alt="banner image"
+                width="1240"
+                height="1385"
+                class="w-auto left-1/2 -translate-x-1/2 absolute bottom-0 max-h-full"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="cta" class="pb-20">
+        <div class="mx-auto max-w-7xl w-full px-6 undefined">
+          <div
+            class="w-full relative py-8 md:py-10 px-6 md:px-8 rounded-2xl bg-gradient-to-tr from-gray-100 to-gray-200 dark:from-gray-900"
+          >
+            <div class="absolute right-0 top-0 h-full w-full flex justify-end">
+              <div
+                class="w-28 h-28 overflow-auto flex rounded-xl relative blur-2xl"
+              >
+                <span
+                  class="absolute w-16 h-16 -top-1 -right-1 bg-gradient-custom rounded-md rotate-45"
+                ></span>
+                <span
+                  class="absolute w-16 h-16 -bottom-1 -right-1 bg-gradient-custom rounded-md rotate-45"
+                ></span>
+                <span
+                  class="absolute w-16 h-16 -bottom-1 -left-1 bg-gradient-custom rounded-md rotate-45"
+                ></span>
+              </div>
+            </div>
+            <div class="absolute left-0 bottom-0 h-full w-full flex items-end">
+              <div
+                class="w-28 h-28 overflow-auto flex rounded-xl relative blur-2xl"
+              >
+                <span
+                  class="absolute w-16 h-16 -top-1 -right-1 bg-gradient-custom rounded-md rotate-45"
+                ></span>
+                <span
+                  class="absolute w-16 h-16 -bottom-1 -right-1 bg-gradient-custom rounded-md rotate-45"
+                ></span>
+                <span
+                  class="absolute w-16 h-16 -bottom-1 -left-1 bg-gradient-custom rounded-md rotate-45"
+                ></span>
+              </div>
+            </div>
+            <div class="mx-auto text-center max-w-xl md:max-w-2xl relative">
+              <h1
+                class="text-3xl/tight sm:text-4xl/tight md:text-5xl/tight font-bold text-heading-1"
+              >
+                Request your
+                <span
+                  class="text-transparent font-bold bg-clip-text bg-gradient-custom"
+                  >Free Quote</span
+                >
+                Now!
+              </h1>
+              <p class="md:text-lg text-heading-3 pt-10">
+                Stay cool and comfortable all year round with our efficient air
+                conditioning solutions. From installation to maintenance, we've
+                got you covered. Call now for a free quote and make comfort a
+                priority in your home.
+              </p>
+              <div class="mx-auto max-w-md sm:max-w-xl pt-10">
+                <a href="tel:941-739-5000" class="inline-block">
+                  <button
+                    class="px-6 py-3 rounded-full outline-none relative overflow-hidden border duration-300 ease-linear after:absolute after:inset-x-0 after:aspect-square after:scale-0 after:opacity-70 after:origin-center after:duration-300 after:ease-linear after:rounded-full after:top-0 after:left-0 bg-[#667eea] dark:bg-red-500 border-transparent after:bg-[#172554] dark:after:bg-red-700 hover:border-[#172554] dark:hover:border-red-700 hover:after:opacity-100 hover:after:scale-[2.5] undefined"
+                  >
+                    <span class="text-white relative z-[5]">
+                      <svg
+                        class="w-6 h-6 text-white mr-2 inline-block"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.367 1.06l-2.31 1.954a11.042 11.042 0 005.5 5.5l1.954-2.31a1 1 0 011.06-.367l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C6.477 21 3 17.523 3 13V5z"
+                        ></path>
+                      </svg>
+                      Call Now 941-739-5000
+                    </span>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="mt-16" data-astro-cid-i3lohfvg></div>
+    <footer
+      class="relative bg-gradient-to-tr from-gray-100 to-gray-200 dark:from-gray-900 pt-28 rounded-t-3xl"
+      data-astro-cid-i3lohfvg
+    >
+      <!-- Contenedor de fondo de tema para el logo -->
+      <div
+        class="absolute right-0 top-0 h-full w-full flex justify-end"
+        data-astro-cid-i3lohfvg
+      >
+        <div
+          class="w-28 h-28 overflow-auto flex rounded-xl relative blur-2xl"
+          data-astro-cid-i3lohfvg
+        >
+          <span
+            class="absolute w-16 h-16 -top-1 -right-1 bg-gradient-custom rounded-md rotate-45"
+            data-astro-cid-i3lohfvg
+          ></span>
+          <span
+            class="absolute w-16 h-16 -bottom-1 -right-1 bg-gradient-custom rounded-md rotate-45"
+            data-astro-cid-i3lohfvg
+          ></span>
+          <span
+            class="absolute w-16 h-16 -bottom-1 -left-1 bg-gradient-custom rounded-md rotate-45"
+            data-astro-cid-i3lohfvg
+          ></span>
+        </div>
+      </div>
+      <!-- Contenedor de fondo de tema para el logo -->
+      <div
+        class="absolute left-0 bottom-0 h-full w-full flex items-end"
+        data-astro-cid-i3lohfvg
+      >
+        <div
+          class="w-28 h-28 overflow-auto flex rounded-xl relative blur-2xl"
+          data-astro-cid-i3lohfvg
+        >
+          <span
+            class="absolute w-16 h-16 -top-1 -right-1 bg-gradient-custom rounded-md rotate-45"
+            data-astro-cid-i3lohfvg
+          ></span>
+          <span
+            class="absolute w-16 h-16 -bottom-1 -right-1 bg-gradient-custom rounded-md rotate-45"
+            data-astro-cid-i3lohfvg
+          ></span>
+          <span
+            class="absolute w-16 h-16 -bottom-1 -left-1 bg-gradient-custom rounded-md rotate-45"
+            data-astro-cid-i3lohfvg
+          ></span>
+        </div>
+      </div>
+      <div class="mx-auto max-w-7xl w-full px-6 pb-8 relative overflow-auto">
+        <div
+          class="grid grid-cols-2 lg:grid-cols-3 lg:items-stretch gap-8 relative"
+          data-astro-cid-i3lohfvg
+        >
+          <div
+            class="col-span-2 lg:col-span-1 h-auto flex flex-col"
+            data-astro-cid-i3lohfvg
+          >
+            <div class="h-full" data-astro-cid-i3lohfvg>
+              <!-- Logo -->
+              <div
+                class="min-w-max inline-flex relative"
+                data-astro-cid-i3lohfvg
+              >
+                <a
+                  href="/"
+                  class="relative flex items-center gap-3"
+                  data-astro-cid-i3lohfvg
+                >
+                  <div
+                    class="logo-image"
+                    style="width: 259px; height: 101px"
+                    data-astro-cid-i3lohfvg
+                  ></div>
+                </a>
+              </div>
+              <p class="md:text-lg text-heading-3 mt-8">
+                Your local Cooling & Heating Specialists.
+              </p>
+            </div>
+            <!-- Enlaces sociales -->
+            <div
+              class="min-h-max flex items-center gap-4 text-heading-3 mt-8"
+              data-astro-cid-i3lohfvg
+            >
+              <!-- Inserta tus enlaces sociales aquí -->
+            </div>
+          </div>
+          <!-- Grupos de navegación del pie de página -->
+          <div class="grid md:grid-cols-2 gap-8 h-max">
+            <nav class="space-y-6">
+              <h2 class="capitalze font-semibold text-heading-1 text-xl">
+                Nice Air
+              </h2>
+              <ul class="space-y-3 font-medium md:text-lg text-heading-3">
+                <li>
+                  <a href="index.html#about-us" class="transition hover:text-primary">
+                    About us
+                  </a>
+                </li>
+                <li>
+                  <a href="index.html#services" class="transition hover:text-primary">
+                    Services
+                  </a>
+                </li>
+                <li>
+                  <a href="index.html#team" class="transition hover:text-primary">
+                    Team
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <nav class="space-y-6">
+              <h2 class="capitalze font-semibold text-heading-1 text-xl">
+                Services
+              </h2>
+              <ul class="space-y-3 font-medium md:text-lg text-heading-3">
+                <li>
+                  <a href="service-call/index.html" class="transition hover:text-primary">
+                    Service Call
+                  </a>
+                </li>
+                <li>
+                  <a href="install/index.html" class="transition hover:text-primary">
+                    Install
+                  </a>
+                </li>
+                <li>
+                  <a href="finance/index.html" class="transition hover:text-primary">
+                    Finance
+                  </a>
+                </li>
+                <li>
+                  <a href="maintenance/index.html" class="transition hover:text-primary">
+                    Maintenance
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="duct-cleaning/index.html"
+                    class="transition hover:text-primary"
+                  >
+                    Duct Cleaning
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="grid md:grid-cols-2 gap-8 h-max">
+            <nav class="space-y-6">
+              <h2 class="capitalze font-semibold text-heading-1 text-xl">
+                Ressources
+              </h2>
+              <ul class="space-y-3 font-medium md:text-lg text-heading-3">
+                <li>
+                  <a href="/#" class="transition hover:text-primary"> Claim </a>
+                </li>
+                <li>
+                  <a href="#" class="transition hover:text-primary">
+                    Privacy
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="transition hover:text-primary"> Terms </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!-- Pie de página inferior -->
+      <div
+        class="bg-gradient-to-tl from-box-bg py-2 relative"
+        data-astro-cid-i3lohfvg
+      >
+        <div class="mx-auto max-w-7xl w-full px-6 undefined">
+          <div
+            class="flex justify-between items-center gap-6 md:text-lg text-heading-3"
+            data-astro-cid-i3lohfvg
+          >
+            <div data-astro-cid-i3lohfvg>
+              &copy; <span id="year" data-astro-cid-i3lohfvg></span> Nice Air
+              LLC. All right reserved
+            </div>
+            <div data-astro-cid-i3lohfvg>
+              Made by
+              <a
+                href="https://satmaticgroup.com/en/"
+                target="_blank"
+                class="font-semibold"
+                data-astro-cid-i3lohfvg
+                >SATMÀTIC GROUP</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Estilos CSS -->
+    <!-- Script JavaScript -->
+  </body>
+</html>
